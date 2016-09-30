@@ -15,7 +15,7 @@ $(function(){
 
 	function successCallback(stream){
 		var video = document.createElement('video');
-		video.height=150;
+		video.height=200;
 		$('.qu_img').html(video).show();
 		video.src = (window.URL&&window.URL.createObjectURL(stream))||stream; 
 		if(video.paused==true){
