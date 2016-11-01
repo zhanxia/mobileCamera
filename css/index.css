@@ -18,4 +18,15 @@ input{
 video{
 	width: 300px;
 	height: auto;
+	margin-top: 10px;
+}
+.title{
+	padding: 20px;
+	background: #ccc;
+	line-height: 22px;
+}
+h1{
+	font-size: 24px;
+    text-align: Center;
+    margin: 20px 0;
 }
