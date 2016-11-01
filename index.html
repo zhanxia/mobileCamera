@@ -13,6 +13,11 @@
 </head>
 <body>
 	<input type="file" accept="video/*" capture="camera">
+	<input type="button" value="调取摄像头" id="getCamera"/>
+	<input type="file" value="选取视频并预览" id="select"/>
+	<div class="video-container">
+		<video src="" id="viewVideo"  controls="controls"></video>
+	</div>
 	<div class="qu_img"></div>
 	<script type="text/javascript" src="js/index.js"></script>
 </body>
